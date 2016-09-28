@@ -1,0 +1,11 @@
+button{
+    width: 50%;
+}
+.b{
+    color: red;
+}
+.c{
+    background:url('../../imgs/exclamation.png') no-repeat;
+    width: 100px;
+    height: 100px;
+}

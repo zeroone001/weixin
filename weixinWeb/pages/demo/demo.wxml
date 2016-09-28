@@ -1,0 +1,24 @@
+<view>
+    <view>Hello {{name}}!!</view>
+    <view wx:if="{{length > 5}}"> 1 </view>
+    <view wx:elif="{{length > 2}}"> 2 </view>
+    <view wx:else> 3 </view>
+    <block hidden>
+        <view> view1 </view>
+        <view> view2 </view>
+    </block>
+    <view wx:for="{{items}}">
+        {{index}}:{{item}}
+    </view>
+    
+        <div class="b">dsadsa </div>
+  
+   <view class="c"></view>
+   <switch></switch>
+   <slider></slider>
+   <picker>
+   </picker>
+   <icon type="success"></icon>
+   
+</view>
+<button bindtap="changeName">click this</button>
